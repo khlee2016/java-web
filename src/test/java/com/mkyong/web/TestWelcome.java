@@ -1,6 +1,6 @@
 package com.mkyong.web;
 
-import com.mkyong.web.config.SpringConfig;
+//import com.mkyong.web.config.SpringConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -20,7 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 //https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/testing.html#integration-testing-annotations-junit-jupiter
 @ExtendWith(SpringExtension.class)
 @WebAppConfiguration
-@ContextConfiguration(classes = SpringConfig.class)
+//@ContextConfiguration(classes = SpringConfig.class)
 //@SpringJUnitWebConfig(SpringConfig.class)
 public class TestWelcome {
 
